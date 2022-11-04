@@ -62,6 +62,12 @@ body:
         - label: Kaikas
         - label: Metamask
         - label: Klip
+        
+  - type: input
+    id: wallet_version
+    attributes:
+      label: 지갑의 버전을 명시해주세요(지갑관련 이슈일 경우)
+      placeholder: "Metamask v5.9.0"
       
 
     
