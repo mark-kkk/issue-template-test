@@ -16,5 +16,15 @@ body:
         - label: tmp
         - label: baobab
         - label: cypress
+  - type: checkboxes
+    id: wallet
+    attributes:
+      label: 어떤 지갑을 사용하였습니까?(지갑관련 이슈일 경우)
+      options:
+        - label: Kaikas
+        - label: Metamask
+        - label: Klip
+      
+
     
 
