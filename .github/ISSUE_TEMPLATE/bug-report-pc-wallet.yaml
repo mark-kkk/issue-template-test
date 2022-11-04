@@ -8,11 +8,11 @@ body:
     id: env_wallet
     attributes:
       label: 어떤 지갑을 사용하였습니까?
+      multiple: true
       options:
         - Kaikas
         - Klip
         - Metamask
-      multiple: false
     validations:
       required: true
       

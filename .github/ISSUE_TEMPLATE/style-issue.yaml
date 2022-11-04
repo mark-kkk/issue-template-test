@@ -8,6 +8,7 @@ body:
     id: env_browser
     attributes:
       label: 어떤 브라우저에서 테스트하였습니까?
+      multiple: true
       options:
         - Chrome
         - Safari
