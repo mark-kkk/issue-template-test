@@ -7,8 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        **재연 방법 및 버그 설명**
-        <!-- (이미 고쳐졌을 수 있습니다. On a Mac 이라면 Shift+Command+R로 새로 고침후에 재시도해도 동일한 현상이 발생하는지 확인해주세요.) -->
+        (이미 고쳐졌을 수 있습니다. On a Mac 이라면 Shift+Command+R로 새로 고침후에 재시도해도 동일한 현상이 발생하는지 확인해주세요.)
   - type: input
     id: contact
     attributes:
@@ -36,7 +35,7 @@ body:
         - 1.0.3 (Edge)
     validations:
       required: true
-  - type: dropdown
+  - type: checkbox
     id: browsers
     attributes:
       label: What browsers are you seeing the problem on?
