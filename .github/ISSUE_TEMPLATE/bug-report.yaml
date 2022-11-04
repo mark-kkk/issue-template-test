@@ -12,18 +12,8 @@ body:
     id: env
     attributes:
       label: 어떤 환경에서 확인하였습니까?
-      options:
-        - label: MacOS
-        - label: Window
-        - label: IOS
-        - label: Android
-        
-  - type: input
-    id: os_version
-    attributes:
-      label: 버전
-      description: "How often do you or others encounter this bug?"
-      placeholder: "Example: Whenever I visit the personal account page (1-2 times a week)"
+      description: "사용한 브라우저와 브라우저의 버전을 적어주세요. 모바일일 경우 디바이스 정보와 디바이스의 버전도 적어주시길 바랍니다.(여려환경애서 발견하였다면 모두 적어주세요)"
+            placeholder: ""
       
   - type: checkboxes
     id: site
