@@ -22,9 +22,6 @@ body:
     id: env_os_detail
     attributes:
       label: 모바일일 경우 디바이스 종류와 OS 버전을 명시해주세요
-      description: "모바일일 경우 디바이스 종류와 OS 버전을 명시해주세요
-      ex) IphoneSE2(14.8.1)\n
-      Galaxy S10+"
       placeholder: "IphoneSE2(14.8.1),Galaxy S10+(10)"
       
   - type: checkboxes
