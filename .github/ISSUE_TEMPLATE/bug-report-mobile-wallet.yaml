@@ -18,8 +18,6 @@ body:
         - Kaikas
         - Klip
         - Metamask
-    validations:
-      required: true
       
   - type: input
     id: url
