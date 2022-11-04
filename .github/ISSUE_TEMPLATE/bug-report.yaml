@@ -1,9 +1,8 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+name: 🐛 Bug report
+description: Create a report to help us improve
+title: ""
+labels: ["bug"]
 assignees:
-  - octocat
 body:
   - type: markdown
     attributes:
