@@ -35,7 +35,7 @@ body:
         - 1.0.3 (Edge)
     validations:
       required: true
-  - type: checkbox
+  - type: checkboxes
     id: browsers
     attributes:
       label: What browsers are you seeing the problem on?
