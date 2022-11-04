@@ -1,8 +1,8 @@
-name: 🎨 Style related
+name: 🎨 Test
 description: Style
 # title: ""
 labels: ["art"]
-assignees: ['skamiecho','dianneJung']
+assignees: ['mark-kkk']
 body:
   - type: checkboxes
     id: env_os

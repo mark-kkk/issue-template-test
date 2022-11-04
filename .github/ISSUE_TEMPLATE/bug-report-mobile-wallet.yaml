@@ -1,7 +1,7 @@
-name: 🐛 Bug report (Mobile)
+name: 🐛 Bug report (Mobile-Wallet)
 description: Create a report to help us improve
 # title: ""
-labels: ["bug","mobile"]
+labels: ["bug","mobile","wallet"]
 # assignees:
 body:        
   - type: input

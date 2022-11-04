@@ -1,27 +1,18 @@
-name: 🐛 Bug report (Mobile)
+name: 🐛 Bug report (PC-Wallet)
 description: Create a report to help us improve
 # title: ""
-labels: ["bug","mobile"]
+labels: ["bug","wallet"]
 # assignees:
 body:        
-  - type: input
-    id: env_os_detail
-    attributes:
-      label: 디바이스 종류와 OS 버전을 명시해주세요
-      placeholder: "IphoneSE2(14.8.1),Galaxy S10+(10)"
-      
   - type: dropdown
     id: env_browser
     attributes:
       label: 어떤 브라우저에서 테스트하였습니까?
-      description: 해당하는 버전이 없다면 아래 브라우저 버전 명시하는 폼에서 브라우저 정보를 함께 입력해주세요
       options:
         - Chrome
         - Safari
         - Firefox
-        - Metamask browser
-        - Kaikas browser
-        - Brave
+      multiple: false
     validations:
       required: true
       
