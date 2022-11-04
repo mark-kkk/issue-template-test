@@ -12,7 +12,7 @@ body:
     id: env
     attributes:
       label: 어떤 환경에서 확인하였습니까?
-      description: "확인하였던 OS정보(모바일의 경우 디바이스정보)와 브라우저 정보를 입력해주세요\n\nex) MacOS-Chrome(103.0.5060.53),IphoneSE2(14.8.1)-Chrome,Galaxy S10+ -MetamaskBrowse(v5.9.1)"
+      description: "확인하였던 OS정보(모바일의 경우 디바이스정보)와 브라우저 정보를 입력해주세요\n\nex) MacOS-Chrome(103.0.5060.53) \nIphoneSE2(14.8.1)-Chrome \nGalaxy S10+ -MetamaskBrowse(v5.9.1)"
       placeholder: "IphoneSE2(14.8.1)-MetamaskBrowse(v5.9.0)"
       
   - type: checkboxes
