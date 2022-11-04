@@ -2,7 +2,7 @@ name: 🐛 Bug report (Mobile)
 description: Create a report to help us improve
 # title: ""
 labels: ["bug","mobile"]
-# assignees:
+assignees: ["jay-46"]
 body:        
   - type: input
     id: env_os_detail

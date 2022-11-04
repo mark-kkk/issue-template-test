@@ -2,7 +2,7 @@ name: 🐛 Bug report
 description: Create a report to help us improve
 # title: ""
 labels: ["bug"]
-# assignees:
+assignees: ["jay-46"]
 body:        
   - type: dropdown
     id: env_browser
