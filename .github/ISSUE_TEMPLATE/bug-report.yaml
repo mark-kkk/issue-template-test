@@ -17,6 +17,14 @@ body:
         - label: Window
         - label: IOS
         - label: Android
+        
+  - type: input
+    id: os_version
+    attributes:
+      label: 
+      description: "How often do you or others encounter this bug?"
+      placeholder: "Example: Whenever I visit the personal account page (1-2 times a week)"
+      
   - type: checkboxes
     id: site
     attributes:
@@ -25,6 +33,7 @@ body:
         - label: tmp
         - label: baobab
         - label: cypress
+        
   - type: checkboxes
     id: wallet
     attributes:
