@@ -14,7 +14,7 @@ body:
         - Safari
         - Firefox
     validations:
-      default: 0
+      default: Chrome
       required: true
       
   - type: input
