@@ -5,13 +5,13 @@ labels: ["bug","wallet"]
 # assignees:
 body:        
   - type: dropdown
-    id: env_browser
+    id: env_wallet
     attributes:
-      label: 어떤 브라우저에서 테스트하였습니까?
+      label: 어떤 지갑을 사용하였습니까?
       options:
-        - Chrome
-        - Safari
-        - Firefox
+        - Kaikas
+        - Klip
+        - Metamask
       multiple: false
     validations:
       required: true
