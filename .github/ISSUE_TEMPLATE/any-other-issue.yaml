@@ -1,3 +1,8 @@
 name: 💬 Any other issue
 about: other issue
 body:
+  - type: textarea
+    id: other_issue
+    attributes:
+      label: other issue
+      placeholder: "other issue"
