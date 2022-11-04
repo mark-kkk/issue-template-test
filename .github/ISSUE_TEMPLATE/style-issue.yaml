@@ -46,6 +46,12 @@ body:
         - label: tmp
         - label: baobab
         - label: cypress
+        
+  - type: input
+    id: url
+    attributes:
+      label: 해당 이슈가 발생한 URL을 입력해주세요
+      placeholder: "https://klaybay.io/games"
       
   - type: textarea
     id: detail
