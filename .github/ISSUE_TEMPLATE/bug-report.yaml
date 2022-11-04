@@ -12,8 +12,8 @@ body:
     id: env
     attributes:
       label: 어떤 환경에서 확인하였습니까?
-      description: "확인하였던 OS정보(모바일의 경우 디바이스정보)와 브라우저 정보를 입력해주세요
-      여려 환경에서 발견한 경우 모두 적어주세요
+      description: "확인하였던 OS정보(모바일의 경우 디바이스정보)와 브라우저 정보를 입력해주세요\n
+      여려 환경에서 발견한 경우 모두 적어주세요\n
       ex) MacOS-Chrome(103.0.5060.53) \nIphoneSE2(14.8.1)-Safari \nGalaxy S10+ -MetamaskBrowse(v5.9.1)"
       placeholder: "IphoneSE2(14.8.1)-MetamaskBrowse(v5.9.0)"
       
