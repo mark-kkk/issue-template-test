@@ -21,7 +21,7 @@ body:
   - type: input
     id: os_version
     attributes:
-      label: 
+      label: 버전
       description: "How often do you or others encounter this bug?"
       placeholder: "Example: Whenever I visit the personal account page (1-2 times a week)"
       
