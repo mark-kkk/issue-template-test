@@ -12,6 +12,7 @@ body:
         - Chrome
         - Safari
         - Firefox
+      multiple: true
     validations:
       required: true
       
