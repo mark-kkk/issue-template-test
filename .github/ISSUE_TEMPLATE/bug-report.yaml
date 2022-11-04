@@ -12,7 +12,7 @@ body:
     id: env
     attributes:
       label: 어떤 환경에서 확인하였습니까?
-      description: "사용한 브라우저와 브라우저의 버전을 적어주세요. 모바일일 경우 디바이스 정보와 디바이스의 버전도 적어주시길 바랍니다.(여려환경애서 발견하였다면 모두 적어주세요)"
+      description: "ss"
             placeholder: "ex) IphoneSE2(14.8.1)"
       
   - type: checkboxes
