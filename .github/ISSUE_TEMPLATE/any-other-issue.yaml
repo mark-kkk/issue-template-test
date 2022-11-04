@@ -1,4 +1,7 @@
 name: 💬 Any other issue
+description: Any other issue
+# title: ""
+labels: []
 body:
   - type: textarea
     id: other_issue
