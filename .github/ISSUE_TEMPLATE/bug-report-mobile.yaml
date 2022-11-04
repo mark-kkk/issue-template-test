@@ -7,7 +7,7 @@ body:
   - type: input
     id: env_os_detail
     attributes:
-      label: 모바일일 경우 디바이스 종류와 OS 버전을 명시해주세요
+      label: 디바이스 종류와 OS 버전을 명시해주세요
       placeholder: "IphoneSE2(14.8.1),Galaxy S10+(10)"
       
   - type: dropdown
@@ -21,38 +21,9 @@ body:
         - Firefox
         - Metamask browser
         - Kaikas browser
+        - Brave
     validations:
       required: true
-        
-  - type: input
-    id: env_browser_detail
-    attributes:
-      label: 브라우저의 버전을 명시해 주세요
-      placeholder: "Chrome(103.0.5060.53)"
-      
-  - type: checkboxes
-    id: site
-    attributes:
-      label: 어떤 사이트에서 확인하였습니까?
-      options:
-        - label: tmp
-        - label: baobab
-        - label: cypress
-        
-  - type: checkboxes
-    id: wallet
-    attributes:
-      label: 어떤 지갑을 사용하였습니까?(지갑관련 이슈일 경우)
-      options:
-        - label: Kaikas
-        - label: Metamask
-        - label: Klip
-        
-  - type: input
-    id: wallet_version
-    attributes:
-      label: 지갑의 버전을 명시해주세요(지갑관련 이슈일 경우)
-      placeholder: "Metamask v5.9.0"
       
   - type: input
     id: url
