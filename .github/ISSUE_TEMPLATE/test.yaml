@@ -1,64 +1,59 @@
-name: 🎨 Test
-description: Style
-# title: ""
-labels: ["art"]
-assignees: ['mark-kkk']
+name: 🐞 Bug
+description: File a bug/issue
+title: "[BUG] <title>"
+labels: [Bug, Needs Triage]
 body:
-  - type: checkboxes
-    id: env_os
-    attributes:
-      label: 어떤 운영체제에서 테스트하였습니까?
-      options:
-        - label: MacOS
-        - label: Window
-        - label: Iphone
-        - label: Android
-        
-  - type: input
-    id: env_os_detail
-    attributes:
-      label: 모바일일 경우 디바이스 종류와 OS 버전을 명시해주세요
-      placeholder: "IphoneSE2(14.8.1),Galaxy S10+(10)"
-      
-  - type: checkboxes
-    id: env_browser
-    attributes:
-      label: 어떤 브라우저에서 테스트하였습니까?
-      description: 해당하는 버전이 없다면 아래 브라우저 버전 명시하는 폼에서 브라우저 정보를 함께 입력해주세요
-      options:
-        - label: Chrome
-        - label: Safari
-        - label: Firefox
-        - label: Metamask browser
-        - label: Kaikas browser
-        
-  - type: input
-    id: env_browser_detail
-    attributes:
-      label: 브라우저의 버전을 명시해 주세요
-      placeholder: "Chrome(103.0.5060.53)"
-      
-  - type: checkboxes
-    id: site
-    attributes:
-      label: 어떤 사이트에서 확인하였습니까?
-      options:
-        - label: tmp
-        - label: baobab
-        - label: cypress
-        
-  - type: input
-    id: url
-    attributes:
-      label: 해당 이슈가 발생한 URL을 입력해주세요
-      placeholder: "https://klaybay.io/games"
-      
-  - type: textarea
-    id: detail
-    attributes:
-      label: 발견한 이슈사항을 상세하게 적어주세요
-      placeholder: "이미 고쳐졌을 수 있습니다. On a Mac 이라면 Shift+Command+R로 새로 고침후에 재시도해도 동일한 현상이 발생하는지 확인해주세요."
-      
+- type: checkboxes
+  attributes:
+    label: Is there an existing issue for this?
+    description: Please search to see if an issue already exists for the bug you encountered.
+    options:
+    - label: I have searched the existing issues
+      required: true
+- type: textarea
+  attributes:
+    label: Current Behavior
+    description: A concise description of what you're experiencing.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Expected Behavior
+    description: A concise description of what you expected to happen.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Steps To Reproduce
+    description: Steps to reproduce the behavior.
+    placeholder: |
+      1. In this environment...
+      2. With this config...
+      3. Run '...'
+      4. See error...
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Environment
+    description: |
+      examples:
+        - **OS**: Ubuntu 20.04
+        - **Node**: 13.14.0
+        - **npm**: 7.6.3
+    value: |
+        - OS:
+        - Node:
+        - npm:
+    render: markdown
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Anything else?
+    description: |
+      Links? References? Anything that will give us more context about the issue you are encountering!
 
-    
-
+      Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+  validations:
+    required: false
