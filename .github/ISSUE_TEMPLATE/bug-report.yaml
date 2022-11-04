@@ -41,10 +41,10 @@ body:
       label: What browsers are you seeing the problem on?
       multiple: true
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - label: Firefox
+        - label: Chrome
+        - label: Safari
+        - label: Microsoft Edge
   - type: textarea
     id: logs
     attributes:
