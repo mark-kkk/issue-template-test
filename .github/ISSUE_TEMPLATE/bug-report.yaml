@@ -66,6 +66,12 @@ body:
       label: 지갑의 버전을 명시해주세요(지갑관련 이슈일 경우)
       placeholder: "Metamask v5.9.0"
       
+  - type: textarea
+    id: detail
+    attributes:
+      label: 발견한 이슈사항을 상세하게 적어주세요
+      placeholder: "Metamask v5.9.0"
+      
 
     
 
