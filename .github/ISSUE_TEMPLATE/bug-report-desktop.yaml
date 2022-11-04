@@ -9,10 +9,10 @@ body:
     attributes:
       label: 어떤 브라우저에서 테스트하였습니까?
       options:
-        - Chrome
+        - [X] Chrome
         - Safari
         - Firefox
-      multiple: true
+      multiple: false
     validations:
       required: true
       
