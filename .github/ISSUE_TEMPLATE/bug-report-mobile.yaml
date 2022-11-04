@@ -7,23 +7,8 @@ body:
   - type: input
     id: env_os_detail
     attributes:
-      label: 디바이스 종류와 OS 버전을 명시해주세요
-      placeholder: "IphoneSE2(14.8.1),Galaxy S10+(10)"
-      
-  - type: dropdown
-    id: env_browser
-    attributes:
-      label: 어떤 브라우저에서 테스트하였습니까?
-      description: 해당하는 버전이 없다면 아래 브라우저 버전 명시하는 폼에서 브라우저 정보를 함께 입력해주세요
-      options:
-        - Chrome
-        - Safari
-        - Firefox
-        - Metamask browser
-        - Kaikas browser
-        - Brave
-    validations:
-      required: true
+      label: 디바이스 종류와 브라우저 정보를 입력해주세요
+      placeholder: "IphoneSE2-Safari"
       
   - type: input
     id: url
