@@ -1,10 +1,10 @@
 name: 💬 Any other issue
-description: 이슈사항을 자유롭게 적어주세요
+description: other issue
 # title: ""
 labels: []
 body:
   - type: textarea
     id: other_issue
     attributes:
-      label: '이슈내용'
+      label: 'other issue'
       placeholder: "other issue"
