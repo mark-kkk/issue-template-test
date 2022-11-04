@@ -13,15 +13,11 @@ body:
   - type: dropdown
     id: env_browser
     attributes:
-      label: 어떤 브라우저에서 테스트하였습니까?
-      description: 해당하는 버전이 없다면 아래 브라우저 버전 명시하는 폼에서 브라우저 정보를 함께 입력해주세요
+      label: 어떤 지갑에서 테스트하였습니까?
       options:
-        - Chrome
-        - Safari
-        - Firefox
-        - Metamask browser
-        - Kaikas browser
-        - Brave
+        - Kaikas
+        - Klip
+        - Metamask
     validations:
       required: true
       
