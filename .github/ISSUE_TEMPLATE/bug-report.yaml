@@ -38,6 +38,12 @@ body:
         - label: Firefox
         - label: Metamask browser
         - label: Kaikas browser
+        
+  - type: input
+    id: env_browser_detail
+    attributes:
+      label: 브라우저의 버전을 명시해 주세요
+      placeholder: "Chrome(103.0.5060.53)"
       
   - type: checkboxes
     id: site
