@@ -4,10 +4,6 @@ description: Create a report to help us improve
 labels: ["bug"]
 # assignees:
 body:
-  - type: markdown
-    attributes:
-      value: |
-        (이미 고쳐졌을 수 있습니다. On a Mac 이라면 Shift+Command+R로 새로 고침후에 재시도해도 동일한 현상이 발생하는지 확인해주세요.)
   - type: checkboxes
     id: env_os
     attributes:
@@ -70,7 +66,7 @@ body:
     id: detail
     attributes:
       label: 발견한 이슈사항을 상세하게 적어주세요
-      placeholder: "Metamask v5.9.0"
+      placeholder: "이미 고쳐졌을 수 있습니다. On a Mac 이라면 Shift+Command+R로 새로 고침후에 재시도해도 동일한 현상이 발생하는지 확인해주세요."
       
 
     
