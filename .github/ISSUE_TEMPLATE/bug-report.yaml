@@ -17,14 +17,27 @@ body:
         - label: Window
         - label: Iphone
         - label: Android
+        
   - type: input
-    id: env
+    id: env_os_detail
     attributes:
       label: 모바일일 경우 디바이스 종류와 OS 버전을 명시해주세요
       description: "모바일일 경우 디바이스 종류와 OS 버전을 명시해주세요
       ex) IphoneSE2(14.8.1)\n
       Galaxy S10+"
       placeholder: "IphoneSE2(14.8.1),Galaxy S10+(10)"
+      
+  - type: checkboxes
+    id: env_browser
+    attributes:
+      label: 어떤 브라우저에서 테스트하였습니까?
+      description: 해당하는 버전이 없다면 아래 브라우저 버전 명시하는 폼에서 브라우저 정보를 함께 입력해주세요
+      options:
+        - label: Chrome
+        - label: Safari
+        - label: Firefox
+        - label: Metamask browser
+        - label: Kaikas browser
       
   - type: checkboxes
     id: site
