@@ -12,6 +12,8 @@ body:
         - Chrome
         - Safari
         - Firefox
+      validations:
+        required: true
       
   - type: input
     id: url
