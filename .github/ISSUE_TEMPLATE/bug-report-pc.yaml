@@ -9,12 +9,12 @@ body:
     attributes:
       label: 어떤 브라우저에서 테스트하였습니까?
       multiple: true
-      default: 1
       options:
         - Chrome
         - Safari
         - Firefox
     validations:
+      default: 0
       required: true
       
   - type: input
