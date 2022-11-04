@@ -9,7 +9,7 @@ body:
     attributes:
       label: 어떤 브라우저에서 테스트하였습니까?
       options:
-        - [X] Chrome
+        - Chrome
         - Safari
         - Firefox
       multiple: false
