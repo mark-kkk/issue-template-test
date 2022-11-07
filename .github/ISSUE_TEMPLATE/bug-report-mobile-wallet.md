@@ -2,7 +2,7 @@
 name: 🐛 Bug report (Mobile-Wallet)
 about: Create a report to help us improve
 title: ''
-labels: [':bug:'mobile','wallet']
+labels: [':bug:','mobile','wallet']
 assignees: 'dade-dd'
 
 ---
