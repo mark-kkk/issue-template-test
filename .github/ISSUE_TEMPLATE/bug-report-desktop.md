@@ -3,7 +3,7 @@ name: 🐛 Bug report
 about: Create a report to help us improve
 title: ''
 labels: ':bug:'
-assignees: 'jay-46'
+assignees: ['mark-kkk', 'mark-kkk']
 
 ---
 
