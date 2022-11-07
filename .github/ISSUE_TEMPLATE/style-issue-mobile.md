@@ -1,20 +1,16 @@
 ---
-name: 🐛 Bug report (Desktop-Wallet)
-about: Create a report to help us improve
+name: 🎨 Style related (Mobile)
+description: Style
 title: ''
-labels: [':bug:','wallet']
-assignees: 'dade-dd'
+labels: [':art:','mobile']
+assignees: ['skamiecho','dianneJung']
 
 ---
 
-#### 어떤 지갑을 사용하였습니까?
-- [ ] Kaikas
-- [ ] Klip
-- [ ] Metamask
-<!-- ex)
-- [ ] Kaikas
-- [ ] Klip
-- [X] Metamask
+#### 디바이스 종류와 브라우저 정보를 입력해주세요
+
+<!-- 
+ex) IphoneSE2-Safari
 -->
 
 

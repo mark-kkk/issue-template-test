@@ -1,20 +1,20 @@
 ---
-name: 🐛 Bug report (Desktop-Wallet)
-about: Create a report to help us improve
+name: 🎨 Style related (Desktop)
+description: Style
 title: ''
-labels: [':bug:','wallet']
-assignees: 'dade-dd'
+labels: [':art:']
+assignees: ['skamiecho','dianneJung']
 
 ---
 
-#### 어떤 지갑을 사용하였습니까?
-- [ ] Kaikas
-- [ ] Klip
-- [ ] Metamask
-<!-- ex)
-- [ ] Kaikas
-- [ ] Klip
-- [X] Metamask
+#### 어떤 브라우저에서 테스트하였습니까?
+- [ ] Chrome
+- [ ] Safari
+- [ ] Firefox
+<!-- 
+- [X] Chrome
+- [ ] Safari
+- [ ] Firefox 
 -->
 
 
