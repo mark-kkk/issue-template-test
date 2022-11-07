@@ -1,5 +1,5 @@
 ---
-name: 🐛 Bug report (Mobile)
+name: 🐛📱 Bug report (Mobile)
 about: Create a report to help us improve
 title: ''
 labels: [':bug:','mobile']

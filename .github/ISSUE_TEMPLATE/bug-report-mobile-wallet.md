@@ -1,5 +1,5 @@
 ---
-name: 🐛 Bug report (Mobile-Wallet)
+name: 🐛📱 Bug report (Mobile-Wallet)
 about: Create a report to help us improve
 title: ''
 labels: [':bug:','mobile','wallet']

@@ -1,6 +1,6 @@
 ---
-name: 🎨 Style related (Mobile)
-description: Style
+name: 🎨📱 Style related (Mobile)
+about: Style
 title: ''
 labels: [':art:','mobile']
 assignees: ['skamiecho','dianneJung']

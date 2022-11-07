@@ -1,6 +1,6 @@
 ---
 name: 🎨 Style related (Desktop)
-description: Style
+about: Style
 title: ''
 labels: [':art:']
 assignees: ['skamiecho','dianneJung']
